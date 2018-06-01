@@ -105,6 +105,10 @@ class App extends Component {
     return (
       <div className="App">
         <h1>Art's Super Leaderboard!</h1>
+        <p>
+          Request a question: `/question` using axios, answer with an express
+          server GET request
+        </p>
         {this.renderTeams()}
         <button onClick={this.deleteScores}>Clear Scores</button>
       </div>
